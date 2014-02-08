@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{8451a0b3-929a-434f-95c5-c158297dfd95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{028766a8-96d7-4145-9f53-4d5eb85f69c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Componants">
+      <UniqueIdentifier>{b453d8b2-d545-4d5f-8d92-20f67c9a40c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Componants">
+      <UniqueIdentifier>{c58e657f-7813-40ac-8cf7-96dbb8021b6e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseComponant.cpp">
+      <Filter>Source Files\Componants</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponantsList.h">
+      <Filter>Header Files\Componants</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseComponant.h">
+      <Filter>Header Files\Componants</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
