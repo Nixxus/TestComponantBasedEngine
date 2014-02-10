@@ -80,12 +80,15 @@
   <ItemGroup>
     <ClCompile Include="BaseComponant.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="ObjectManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseComponant.h" />
     <ClInclude Include="ComponantsList.h" />
     <ClInclude Include="Object.h" />
+    <ClInclude Include="ObjectManager.h" />
+    <ClInclude Include="ReadComponant.h" />
+    <ClInclude Include="WriteComponant.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

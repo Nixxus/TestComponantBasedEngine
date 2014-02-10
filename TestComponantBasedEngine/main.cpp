@@ -1,18 +1,16 @@
 //Entry point
-#include "Object.h"
-
+#include "ObjectManager.h"
+#include <iostream>
 void main()
 {
-	Object object;
+	ObjectManager Manager;
 
-	BaseComponant* componant = new BaseComponant(&object);
-	object.AddComponant(componant);
+	Manager.CreateNewObject();
 
-	componant = new BaseComponant(&object);
-	object.AddComponant(componant);
+	Manager.AddComponants("Write", 0);
+	Manager.AddComponants("Read", 0);
 
-	object.Update();
+	Manager.UpdateAllObjects();
 
-	std::cin.get();
-
+	cin.get();
 }

@@ -30,11 +30,11 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Object.cpp">
-      <Filter>Source Files\Objects</Filter>
-    </ClCompile>
     <ClCompile Include="BaseComponant.cpp">
       <Filter>Source Files\Componants</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -45,6 +45,15 @@
       <Filter>Header Files\Componants</Filter>
     </ClInclude>
     <ClInclude Include="BaseComponant.h">
+      <Filter>Header Files\Componants</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteComponant.h">
+      <Filter>Header Files\Componants</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadComponant.h">
       <Filter>Header Files\Componants</Filter>
     </ClInclude>
   </ItemGroup>
